@@ -31,7 +31,7 @@ install_stores(){
 }
 
 install_winrar(){
-    sudo apt-get install rar unrar
+    sudo apt-get install rar unrar thunar-archive-plugin
 }
 
 install_steam
