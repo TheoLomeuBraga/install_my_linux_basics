@@ -30,7 +30,12 @@ install_stores(){
     sudo apt -y install discover gnome-software
 }
 
+install_winrar(){
+    sudo apt-get install rar unrar
+}
+
 install_steam
+install_unrar
 install_mesa_drivers
 install_programing_languages_tools
 install_stores
