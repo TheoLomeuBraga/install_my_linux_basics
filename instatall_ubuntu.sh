@@ -31,7 +31,12 @@ install_stores(){
 }
 
 install_winrar(){
-    sudo apt-get install rar unrar thunar-archive-plugin
+    sudo apt -y install rar unrar thunar-archive-plugin
+}
+
+install_simplifiers(){
+    sudo apt -y install update-manager synaptic
+    sudo apt -y install gnome-software discover
 }
 
 install_steam
@@ -39,6 +44,7 @@ install_unrar
 install_mesa_drivers
 install_programing_languages_tools
 install_stores
+install_simplifiers
 
 echo "instalation complete"
 
