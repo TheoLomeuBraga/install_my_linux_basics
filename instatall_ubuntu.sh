@@ -36,7 +36,6 @@ install_winrar(){
 
 install_simplifiers(){
     sudo apt -y install update-manager synaptic
-    sudo apt -y install gnome-software discover
 }
 
 install_steam
